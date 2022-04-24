@@ -1,4 +1,7 @@
 /** Start Our Framework **/
+body{
+    font-family: 'Open Sans', sans-serif;
+}
 .container{
     width: 75rem;
     margin: auto;
@@ -33,6 +36,34 @@ color:#FFF;
     height: 100%;
 
 }
+.header .navbar{
+    overflow: hidden;
+    padding: 1.4rem 0;
+}
+.header .navbar .links{
+    float: right;
+ 
+}
+.header .navbar .links i {
+    margin-left: 0.5rem;
+}
+.header .intro h1{
+    margin: 0%;
+    font-weight: 800;
+    font-size: 3.5rem;
+}
+.header .intro p{
+    margin: 0.4rem 0 3rem ;
+    line-height: 1.9;
+    font-size: 1.2rem;
+    color: #e9e4e4;
+}
+
+
+
+
+
+
 .header .buttons button{
     background: transparent;
     padding: 10px 0;
@@ -50,6 +81,7 @@ color:#FFF;
     color: #FFF;
     border: solid 1px #f7600e;
 }
+
 
 
 /** End Header **/
