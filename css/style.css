@@ -202,7 +202,38 @@ color: #FFF;
   
 
 }
-
+                                               /* Start Our Work */
+.our-work{
+    padding: 3rem 0;
+}                                              
+.our-work h2{
+    font-weight: normal;
+    font-size: 2rem;
+    margin-bottom: 0%;
+}
+.our-work h2~p{
+    line-height: 2;
+    max-width: 0.8rem 0 2.2rem;
+}
+.our-work .show-more{
+    background-color: transparent;
+    border: 1px soild #ccc;
+    width: 15rem;
+    padding: 00.8rem;
+    border-radius: 00.8rem;
+    margin-top: 1.5rem;
+    color: #555;
+    transition: all 2s ease-in-out;
+}
+.our-work .show-more:hover{
+    background-color: #f7600e;
+    color: #FFF;
+    border: #f7600e solid 2px;
+}
+.hidden{
+    display: none;
+}
+                                               /* End Our Work */
 
 
 
