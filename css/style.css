@@ -2,6 +2,8 @@
 body{
     font-family: 'Open Sans', sans-serif;
     height: 3000px;
+    font-size: 16px;
+    
 }
 .container{
     width: 75rem;
@@ -117,9 +119,44 @@ color:#FFF;
                                         /** Start Features **/
 .features{
     background-color: #FFF;
-    padding: 2.5rem 0;
+    padding: 4rem 0;
+    overflow: hidden;
     
-}                                        
+}     
+.features .box {
+    width: 22%;
+    float: left;
+    margin-right: 4%;
+}  
+.features .box i {
+    color: #f7600e;
+    width: 10rem;
+    height: 10rem;
+    line-height: 10rem;
+  
+    border: #86807c solid 2px;
+    border-radius: 50%;
+    transition: all 2s ease-in-out;
+  
+
+}    
+.features .box i:hover{
+    background-color: #f7600e;
+    color: #FFF;
+    border: #f7600e solid 2px;
+}                          
+.features h3{
+    text-transform: uppercase;
+    font-weight: normal;
+    color:#666;
+}
+.features p{
+    color:#888;
+    line-height: 2;
+}
+.features .box:last-child{
+    margin-right: 0%;
+}   
 
 
 
