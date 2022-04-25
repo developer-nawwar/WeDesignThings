@@ -233,6 +233,69 @@ color: #FFF;
 .hidden{
     display: none;
 }
+.our-work .items-box{
+    overflow: hidden;
+   
+}
+.our-work .items-box .item{
+    float: left;
+    overflow: hidden;
+    width: 32%;
+    margin-right: 0.5rem;
+    margin-bottom: 00.5rem;
+    position: relative;
+    border-radius: 0.7rem;
+    transition: all 4s ease-in-out;
+    
+}
+.our-work .items-box .item img{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+}
+.our-work .item .over{
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(247, 96, 14, 0.8);
+    color: #FFF;
+    transition: all 2s ease-in-out;
+    display: none;
+  
+    
+}
+.our-work .item .over h4{
+    font-size: 1.5rem;
+    margin-top: 3rem;
+    margin-bottom: 0%;
+    font-weight: normal;
+
+}
+.our-work .item .over p{
+    margin-top: 0.8rem;
+    margin-bottom: 3rem;
+    line-height: 2;
+
+}
+.our-work .item .over button{
+    background-color: transparent;
+    border: 1px solid #FFF;
+    width: 11rem;
+    padding: 0.7rem;
+    border-radius: 00.7rem;
+    color: #FFF;
+    transition: all 2s ease-in-out;
+}
+.our-work .item:hover .over{
+    display: block;
+}
+.our-work .item .over button:hover {
+    background-color: #FFF;
+    border: #FFF solid 1px;
+    color: #f7600e;
+}
                                                /* End Our Work */
 
 
