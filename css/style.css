@@ -1,6 +1,7 @@
-/** Start Our Framework **/
+                               /** Start Our Framework **/
 body{
     font-family: 'Open Sans', sans-serif;
+    height: 3000px;
 }
 .container{
     width: 75rem;
@@ -26,7 +27,7 @@ body{
     background-color: #f7600e;
 }
 
-/** Start Header **/
+                                               /** Start Header **/
 .header{
     background:url('../img/Header-Stock.png');
     -webkit-background-size:cover;
@@ -54,6 +55,7 @@ color:#FFF;
 }
 .header .navbar .links i {
     margin-left: 0.5rem;
+  
 }
 .header .intro h1{
     margin: 0%;
@@ -73,6 +75,18 @@ color:#FFF;
     text-align: center;
     width: 100%;
     padding: 1.4rem 0;
+   
+ 
+}
+.header .arrow i {
+    border: solid #ccc 2px;
+    padding: 1rem;
+    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+    line-height: 2rem;
+    cursor: pointer;
+
 }
 
 
@@ -99,4 +113,27 @@ color:#FFF;
 
 
 
-/** End Header **/
+                                          /** End Header **/
+                                        /** Start Features **/
+.features{
+    background-color: #FFF;
+    padding: 2.5rem 0;
+    
+}                                        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                          /** End Features**/
