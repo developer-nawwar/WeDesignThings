@@ -16,6 +16,10 @@ body{
 .table-row{
     display: table-row;
 }
+form input::placeholder{
+    font-size: 0.8rem;
+    color: #86807c;
+}
 .text-center{
     text-align: center;
 }
@@ -40,7 +44,7 @@ background-size: cover;
 color:#FFF;
 
 }
-.header .overlay{
+.overlay{
     background: rgba(49, 51, 61, 0.9);
     width: 100%;
     height: 100%;
@@ -157,6 +161,63 @@ color:#FFF;
 .features .box:last-child{
     margin-right: 0%;
 }   
+
+                                         /* Strat Subscribe */
+.subscribe{
+    background:url('../img/Subscribe-Stock.jpg');
+    -webkit-background-size:cover;
+   -moz-backgroun-size:cover;
+   -o-background-size:cover;
+   background-repeat: no-repeat;
+background-size: cover;
+height: 15rem;
+color: #FFF;
+
+
+}
+.subscribe form{
+    width: 70rem;
+    margin: auto;
+    padding: 5rem 0;
+    text-align: center;
+}
+.subscribe form input[type="email"]{
+    padding: 0.8rem;
+    width: 28rem ;
+    font-size: 1rem;
+    border-radius: 1.2rem;
+    border: none;
+    
+    
+}
+.subscribe form button {
+    padding: 0.8rem ;
+    width:15rem ;
+    border: none;
+    border-radius: 1.2rem;
+    color: #FFF;
+    background-color: #f7600e;
+    font-size: 1rem;
+    margin-left: 2rem;
+  
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                        /* End Subscribe */
 
 
 
