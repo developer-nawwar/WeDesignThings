@@ -8,6 +8,7 @@ body{
 .container{
     width: 75rem;
     margin: auto;
+    position: relative;
 }
 .table{
     height: 100%;
@@ -161,8 +162,8 @@ color:#FFF;
 .features .box:last-child{
     margin-right: 0%;
 }   
-
-                                         /* Strat Subscribe */
+                                         /** End Features**/
+                                         /* Start Subscribe */
 .subscribe{
     background:url('../img/Subscribe-Stock.jpg');
     -webkit-background-size:cover;
@@ -200,8 +201,10 @@ color: #FFF;
     font-size: 1rem;
     margin-left: 2rem;
   
-
+            
 }
+                                                /* End Subscribe */
+
                                                /* Start Our Work */
 .our-work{
     padding: 3rem 0;
@@ -297,6 +300,49 @@ color: #FFF;
     color: #f7600e;
 }
                                                /* End Our Work */
+                                              /* Start Testimonials */
+.testimonials{
+    background: url('../img/Testimonial-Stock.jpg');
+    background-size: cover;
+   
+}
+.testimonials .client{
+    padding: 3rem 0;
+    font-size: 1rem;
+    color: #FFF;
+
+}
+.testimonials .client p{
+    line-height: 2;
+    font-style: italic;
+}
+.testimonials .fa-chevron-right , .testimonials .fa-chevron-left{
+    position: absolute;
+    top:50%;
+    color: #999;
+    cursor: pointer;
+} 
+.testimonials .fa-chevron-right {
+    right: 0%;
+   }
+.testimonials .fa-chevron-left {
+   left: 0%;
+  }
+                                             /* End Testimonials */
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                
 
 
 
@@ -311,21 +357,5 @@ color: #FFF;
 
 
 
-                                        /* End Subscribe */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                                          /** End Features**/
+                                       

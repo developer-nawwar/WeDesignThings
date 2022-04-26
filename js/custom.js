@@ -29,11 +29,12 @@ $('.show-more').click(function(){
    }
    else{
     $(".show-more").text("show more");
+    
 
    }
  
   
-$(".our-work .hidden").fadeToggle(1000);
+$(".our-work .hidden").fadeToggle(500);
 
 
 
