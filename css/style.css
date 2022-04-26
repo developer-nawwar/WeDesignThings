@@ -1,4 +1,6 @@
-                               /** Start Our Framework **/
+* {
+    box-sizing: border-box;
+}                              /** Start Our Framework **/
 body{
     font-family: 'Open Sans', sans-serif;
     height: 3000px;
@@ -397,6 +399,87 @@ color: #FFF;
 
 
                                              /* End Our Team */
+                                            /* Start Contact*/
+.contact{
+    background: url('../img/ContactForm-Stock.jpg');
+    background-size: cover;
+    
+}
+.contact form{
+    width: 43.75rem;
+    text-align: center;
+    margin: auto;
+    overflow: hidden;
+  
+}
+.contact form input[type="text"],
+
+.contact form input[type="email"]
+{
+    width: 48%;
+    padding: 0.3rem 0.8rem;
+    height: 2rem;
+    line-height: 2rem;
+    border-radius: 0.7rem ;
+    border: 1px solid #ccc;
+    background: transparent;
+
+ 
+    
+}
+.contact form input[type="text"]{
+    float: right;
+}
+.contact form input[type="email"]{
+    float: left;
+}
+.contact form textarea{
+    margin-top: 2.2rem;
+    padding:  0.8rem;
+    width: 100%;
+    border-radius: 0.7rem ;
+    border: 1px solid #ccc;
+    background: transparent;
+}
+.contact .overlay{
+    padding: 3rem 0;
+    color: #FFF;
+}
+.contact .info{
+    margin-top: 00.7rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.contact .info button{
+    padding: 0.3rem ;
+    width:10rem ;
+    border: none;
+    border-radius: 1.2rem;
+    color: #FFF;
+    background-color: #f7600e;
+    font-size: 0.8rem;
+}
+.contact .info .form-icons i {
+  
+    width: 2rem;
+    height: 2rem;
+    line-height: 2rem;
+    color: #FFF;
+    border-radius: 50%;
+
+}
+ .form-icons   .fa-facebook{
+    background-color: #1877f2;
+}
+ .form-icons   .fa-instagram{
+    background-color: #f56040;
+}
+ .form-icons  .fa-youtube{
+    background-color: #ff0000;
+}
+                                            /* End Contact*/
 
 
 
