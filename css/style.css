@@ -10,6 +10,11 @@ body{
     margin: auto;
     position: relative;
 }
+h2{
+    font-weight: normal;
+    font-size: 2rem;
+    margin-bottom: 0%;
+}
 .table{
     height: 100%;
     display: table;
@@ -209,11 +214,7 @@ color: #FFF;
 .our-work{
     padding: 3rem 0;
 }                                              
-.our-work h2{
-    font-weight: normal;
-    font-size: 2rem;
-    margin-bottom: 0%;
-}
+
 .our-work h2~p{
     line-height: 2;
     max-width: 0.8rem 0 2.2rem;
@@ -334,6 +335,68 @@ color: #FFF;
   }
 
                                              /* End Testimonials */
+                                             /* Start Our Team */
+.our-team{
+    padding: 3rem 0;
+
+}
+.our-team p{
+    margin: 0.8rem 0 2.5rem;
+    line-height: 2;
+    color: #666;
+    font-size: 1.2rem;
+}
+.our-team .team{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.our-team .team .person{
+    overflow: hidden;
+    color: #888;
+    transition: all 3s ease-in-out;
+}
+.our-team .team .person p{
+    font-size: 0.8rem;
+}
+.person .social-icons i{
+    background-color: #888;
+    width: 2rem;
+    height: 2rem;
+    line-height: 2rem;
+    color: #FFF;
+    border-radius: 50%;
+  
+
+
+}
+.person img{
+    filter: gray;
+    filter: grayscale(1);
+    -webkit-filter: grayscale(1);
+ 
+}
+.our-team .team .person:hover img
+{
+    filter: none;
+    -webkit-filter: grayscale(0);
+}
+.our-team .person:hover{
+    color: #555;
+}
+.our-team .team .person:hover .fa-facebook{
+    background-color: #1877f2;
+}
+.our-team .team .person:hover .fa-instagram{
+    background-color: #f56040;
+}
+.our-team .team .person:hover .fa-youtube{
+    background-color: #ff0000;
+}
+
+
+                                             /* End Our Team */
 
 
 
