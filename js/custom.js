@@ -2,7 +2,14 @@
 $(function(){
     /*trigger*/
     'use strict';
-    $('html').nicescroll();
+    $('html').niceScroll({
+        cursorcolor:'#f7600e',
+        cursorwidth: '8px',
+        cursorborderradius: 0,
+        cursotborder: '1px solid #f7600e'
+    }
+
+    );
   
  
   
@@ -16,6 +23,14 @@ $(".header").height($(window).height());
     $('html,body').animate({
         scrollTop:$('.features').offset().top
     }, 1000);
+
+});
+$(".hire").click(function(){
+   
+    
+    $('html,body').animate({
+        scrollTop: $('.our-team').offset().top
+    },2000);
 
 });
 //Shoe Hidden Items From Work 

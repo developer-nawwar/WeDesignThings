@@ -94,7 +94,7 @@ color:#FFF;
 }
 .header .arrow i {
     border: solid #ccc 2px;
-    padding: 1rem;
+    /* padding: 1rem; */
     border-radius: 50%;
     width: 2rem;
     height: 2rem;
