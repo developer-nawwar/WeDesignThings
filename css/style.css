@@ -328,6 +328,11 @@ color: #FFF;
 .testimonials .fa-chevron-left {
    left: 0%;
   }
+  .testimonials .fa-chevron-left:hover, 
+  .testimonials .fa-chevron-right:hover{
+      color: #f7600e;
+  }
+
                                              /* End Testimonials */
 
 
