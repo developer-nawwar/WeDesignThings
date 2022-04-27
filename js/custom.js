@@ -1,46 +1,51 @@
 /*global $, alert, console */
-$(function(){
-    /*trigger*/
-    'use strict';
-    $('html').niceScroll({
-        cursorcolor:'#f7600e',
-        cursorwidth: '8px',
-        cursorborderradius: 0,
-        cursotborder: '1px solid #f7600e'
-    }
+$(document).ready(function(){
+    //** Prealoader */
+$(".loader").fadeOut("slow");
 
-    );
+    /*trigger*/
+$('html').niceScroll({
+    cursorcolor:'#f7600e',
+    cursorwidth: '8px',
+    cursorborderradius: 0,
+    cursorborder: '1px solid #f7600e'
+}
+
+);
+
      /*change the header height*/
 $(".header").height($(window).height());
 // scroll to feature
 $("#arrow").click(function(){
-  // $(window).scrollTop($('.features').offset().top);
-  $('html,body').animate({
-      scrollTop:$('.features').offset().top
-  }, 1000);
-
-});
-$(".hire").click(function(){
+    // $(window).scrollTop($('.features').offset().top);
+    $('html,body').animate({
+        scrollTop:$('.features').offset().top
+    }, 1000);
+  
+  });
+  //Scroll to team 
+  $(".hire").click(function(){
  
   
-  $('html,body').animate({
-      scrollTop: $('.our-team').offset().top
-  },2000);
-
-});
-//Shoe Hidden Items From Work 
+    $('html,body').animate({
+        scrollTop: $('.our-team').offset().top
+    },2000);
+  
+  });
+  //Shoe Hidden Items From Work 
 $('.show-more').click(function(){
-      if ($(".our-work .hidden").is(":hidden"))
-      {
-              $(".show-more").text("show less");
+    if ($(".our-work .hidden").is(":hidden"))
+    {
+            $(".show-more").text("show less");
 
-      }
-      else
-      {
-              $(".show-more").text("show more");
-      } 
-     $(".our-work .hidden").fadeToggle(500);
+    }
+    else
+    {
+            $(".show-more").text("show more");
+    } 
+   $(".our-work .hidden").fadeToggle(500);
 });
+
 //Check Testimonials
 let leftArrow=$(".testimonials .fa-chevron-left");
 let rightArrow=$(".testimonials .fa-chevron-right ");
@@ -69,8 +74,10 @@ $(".testimonials i").click(function(){
 
 });
 
-  
- 
-  
- 
+
+
+
+
+
 });
+
